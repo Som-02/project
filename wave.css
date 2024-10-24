@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #101f30;
+    background-image: url(\image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:soft-light;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+header {
+    padding: 40px;
+    text-align: center;
+    color:rgb(0, 255, 166);
+    text-shadow: 1px 7px 30px;
+}
+header h1 {
+    padding-bottom:0px;
+    margin: 0;
+    font-size: 2.5em;
+}
+.Logo img{
+    padding-top: 30px;
+    height: 200px;
+    mix-blend-mode:color-dodge;
+}
+.hero-section {
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(0, 255, 166);
+    text-shadow:  1px 7px 30px;
+}
+.hero-section p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: rgb(0, 255, 166);
+    text-shadow:  1px 7px 30px;
+}
+.button {
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(0, 255, 166);
+    color: #101f30;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 1.2em;
+    box-shadow:1px 7px 18px;
+}
+.button:hover{
+    background-color:rgb(234, 255, 0);
+    box-shadow:rgb(234, 255, 0) 1px 5px 18px;
+}
+
+.content-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.list .active{
+    color:rgb(0, 255, 166);
+    text-shadow:  1px 7px 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:19px;
+}
+.list .active .bi{
+    margin-right: 7px;   
+}
+img{
+    height: 40px;
+    border-radius: 20px;
+}
+footer { 
+    color: white;
+    padding: 0.3px;
+    text-align: center;
+    margin-top: 150px;
+}
+.login-form {
+    position: absolute;
+    top: 450px;
+    right: 60px;
+    width: 250px;
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid deeppink;
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px rgb(255, 0, 140);
+}
+
+.login-form input[type="text"], 
+.login-form input[type="password"] {
+    width: 87%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(0, 255, 166);
+    border-radius: 10px;
+}
+
+.login-form input[type="submit"] {
+    width: 67%;
+    height: 30px;
+    padding: 0px;
+    background-color:rgb(0, 255, 166);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color:rgb(234, 255, 0);
+    box-shadow:rgb(234, 255, 0) 1px 5px 18px;
+}
+.login-form .forgot-password {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color:orangered;
+    text-decoration: none;
+}
+
+/* Hover effect for forgot password link */
+.login-form .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-form-left {
+    position: absolute;
+    top: 550px;
+    right: 1300px;
+    width: 250px;
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid deeppink;
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px rgb(255, 0, 140);
+}
+.login-form-left .sign-up {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color:orangered;
+    text-decoration: none;
+}
+
+/* Hover effect for forgot password link */
+.login-form-left .sign-up:hover {
+    text-decoration: underline;
+}
